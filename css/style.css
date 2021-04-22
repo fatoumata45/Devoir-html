@@ -83,9 +83,9 @@ nav a{
 }
 
 /*section hero*/
-.hero{
-  max-width: 192rem;
-  background-image: url(/images/image/Photo\ arrière-plan.jpg);
+.hero .container{
+  background-image: url(../images/image/Photo\ arrière-plan.jpg);
+  background-size: cover;
   
 }
 .hero h1{
@@ -93,4 +93,38 @@ nav a{
   margin-left: auto;
   margin-left: auto;
   font-size: 7.2rem;
+  color: white;
+  font-style: Raleway,bold;
 }
+ .renconte{  
+   height: 9.8rem ;
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 4rem;
+    width: 59rem;
+  background-color: var(--unnamed-color);
+}
+
+.actualites-grid{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 3.2rem;
+margin-left: 32.2rem;
+margin-right: 32.2rem;
+
+}
+.actualites{
+  max-width: 404rem;
+  background-color:#FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029; 
+}
+.actu-para{
+  font-size: 2rem;
+  max-width: 34.7rem;
+  
+}
+.Lire-la-suite{
+  background-color: var(--unnamed-color);
+  width: 40.4rem;
+}
+
