@@ -52,21 +52,45 @@ body{
 
 
 /*style index*/
-.main-header{
+.container{
+  width: 192rem;
+}
+ .main-header .container{
+   background-color: var(--unnamed-color);
   display: flex;
   justify-content: space-between;
 }
 
-ul{
+.para-header{
+  font-size: 4.8rem;
+}
+.container.menu{
   display: flex;
-  justify-content: space-between;
- 
-  
-  
+  justify-content: space-between; 
 }
 .menu li{
+  font-size: 2rem;
   text-decoration: none;
 }
+ul.menu{ 
+  
+  display: flex;
+  justify-content: space-between;
+}
+
 nav a{
   text-decoration: none;
+}
+
+/*section hero*/
+.hero{
+  max-width: 192rem;
+  background-image: url(/images/image/Photo\ arrière-plan.jpg);
+  
+}
+.hero h1{
+  max-width: 90.4rem;
+  margin-left: auto;
+  margin-left: auto;
+  font-size: 7.2rem;
 }
