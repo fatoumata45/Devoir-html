@@ -12,22 +12,24 @@
     <header class="main-header">
         <div class="container">
             <p class="para-header">DWWM</p>
+    
             <nav class="main-nav">
-                <ul class="menu" role="list">
-                    <li class="menu-item"><a href="#" class="menu-link">Accueil</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">La formation</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Les étudiants</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Actualités</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Nous contacter</a></li>
+                <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul class="menu" role="list" hidden>
+                    <li class="menu-item"><a href="index.html" class="menu-link-accueil">Accueil</a></li>
+                    <li class="menu-item"><a href="formation.html" class="menu-link">La formation</a></li>
+                    <li class="menu-item"><a href="etudiants.html" class="menu-link">Les étudiants</a></li>
+                    <li class="menu-item"><a href="actualites.html" class="menu-link">Actualités</a></li>
+                    <li class="menu-item"><a href="contacts.html" class="menu-link">Nous contacter</a></li>
                 </ul>
             </nav>
         </div>
-    </header> 
+    </header>
     <section class="actualites-details">
         <div class="container">
-            <picture class="contenu-actualites">
+            <figure class="contenu-actualites">
                 <img src="images/image/Photo2.jpg" alt="modules">
-            </picture> 
+            </figure> 
                 <h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h1>
                 <figure  class="date-figure">
                     <a href="date"><img src="images/logos/Icone date.svg"></a>
@@ -48,18 +50,21 @@
 
     <footer class="contacts">
         <div class="container">
-            <ul class="adresse">
-                <li>Développeur Web et Web Mobile</li>
-                <li>CEFIM</li>
-                <li class="localisation"> <a href="https://maps.google.fr/" target="_blank" class="localisation-link">
-                        32 Avenue Marcel Dassault
-                        <span class="span-adress">37200 Tours</a></span></li>
-                <li>T : 02 47 40 26 80</li>
-            </ul>
-            <ul class="confidentialites">
-                <li class="legale"> <a href="politique.html">MentionsMentions légales</a></li>
-                <li class="politique"> <a href="#"> Politique de confidentialité </a></li>
-            </ul>
+            <address class="adresses-footer">
+                <ul class="adresse">
+                    <li>Développeur Web et Web Mobile</li>
+                    <li>CEFIM</li>
+                    <li class="localisation"> <a href="https://maps.google.fr/" target="_blank"
+                            class="localisation-link">
+                            32 Avenue Marcel Dassault
+                            <span class="span-adress">37200 Tours</a></span></li>
+                    <li>T : 02 47 40 26 80</li>
+                </ul>
+            </address>
+            <div class="confidentialites">
+                <p class="legale"> <a href="politique.html">MentionsMentions légales</a></p>
+                <p class="politique"> <a href="politique.html"> Politique de confidentialité </a></p>
+            </div>
             <div class="reseaux">
                 <picture class="facebook">
                     <a href=""><img src="images/logos/Icon awesome-facebook-f.svg" alt="facebook"></a>

@@ -16,13 +16,15 @@
     <header class="main-header">
         <div class="container">
             <p class="para-header">DWWM</p>
+
             <nav class="main-nav">
-                <ul class="menu" role="list">
-                    <li class="menu-item"><a href="#" class="menu-link">Accueil</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">La formation</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Les étudiants</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Actualités</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Nous contacter</a></li>
+                <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul class="menu" role="list" hidden>
+                    <li class="menu-item"><a href="index.html" class="menu-link-accueil">Accueil</a></li>
+                    <li class="menu-item"><a href="formation.html" class="menu-link">La formation</a></li>
+                    <li class="menu-item"><a href="etudiants.html" class="menu-link">Les étudiants</a></li>
+                    <li class="menu-item"><a href="actualites.html" class="menu-link">Actualités</a></li>
+                    <li class="menu-item"><a href="contacts.html" class="menu-link">Nous contacter</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,7 +33,7 @@
         <div class="container">
             <div class="hero-contenu">
                 <h1>Bienvenue sur le site de la promotion DWWM2019-2</h1>
-                <button class="renconte"> Rencontrez nos étudiants</button>
+                <a href="etudiants.html"><button class="renconte"> Rencontrez nos étudiants</button></a>
             </div>
         </div>
     </section>
@@ -43,42 +45,64 @@
                 <article class="actualites">
                     <figure class="actu">
                         <img src="/images/image/Photo3.jpg">
-                            <p class="date">12/02/2020</p>
-                        
-                        <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
-                        <p class="actu-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                            eirmod
-                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                        <button class="Lire-la-suite"> <a href="#">Lire la suite </a></button>
                     </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
+                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                    <p class="actu-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+
                 </article>
                 <article class="actualites">
                     <figure class="actu">
-                        <img src="/images/image/Photo.jpg">
-                        <p class="date">12/02/2020</p>
-                        <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
-                        <p class="actu-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                            eirmod
-                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                        <button class="Lire-la-suite"><a href="#">Lire la suite</a></button>
-
+                        <img src="images/image/Photo.jpg">
                     </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
+                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                    <p class="actu-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+
                 </article>
 
                 <article class="actualites">
                     <figure class="actu">
-                        <img src="/images/image/Photo2.jpg">
-                        <p class="date">12/02/2020</p>
-                        <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
-                        <p class="actu-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                            eirmod
-                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …
-                        </p>
-                        <a href="#"> <button class="Lire-la-suite"> Lire la suite </button></a>
+                        <img src="images/image/Photo2.jpg">
                     </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
+                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                    <p class="actu-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …
+                    </p>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+
                 </article>
             </div>
         </div>
@@ -90,22 +114,22 @@
                 <figure class="etudiant">
                     <img src="images/image/francine.png">
                     <p class="prenom">Francine Auhi</p>
-                    <a href="#"> en savoir plus</a>
+                    <a href="details-etudiant.html"> en savoir plus</a>
                 </figure>
                 <figure class="etudiant">
                     <img src="images/image/Ali.png">
                     <p class="prenom">Ali Korn</p>
-                    <a href="#"> en savoir plus</a>
+                    <a href="details-etudiant.html"> en savoir plus</a>
                 </figure>
                 <figure class="etudiant">
                     <img src="images/image/jean.png">
                     <p class="prenom">Jean Vascrit</p>
-                    <a href="#"> en savoir plus</a>
+                    <a href="details-etudiant.html"> en savoir plus</a>
                 </figure>
                 <figure class="etudiant">
                     <img src="images/image/lara.png">
                     <p class="prenom">Lara Velle</p>
-                    <a href="#"> en savoir plus</a>
+                    <a href="details-etudiant.html"> en savoir plus</a>
                 </figure>
 
             </article>
@@ -114,47 +138,56 @@
     <section class="les-modules">
         <div class="container">
             <h2>Les modules de la formation</h2>
-            <article class="modules">
-                <figure class="details-modules">
-                    <img src="images/image/modules01.jpg">
+            <div class="modules">
+                <article class="details-modules">
+                    <figure class="images-modules">
+                        <img src="images/image/modules01.jpg">
+                    </figure>
                     <h4>Module HTML/CSS</h4>
                     <p class="para-modules">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                    <button class="lire">
-                        Lire la suite <a href="#"></a>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
                     </button>
-                </figure>
-                <figure class="details-modules">
-                    <img src="images/image/modules2.jpg">
+                </article>
+                <article class="details-modules">
+                    <figure class="images-modules">
+                        <img src="images/image/modules2.jpg">
+                    </figure>
                     <h4>Module JavaScript</h4>
                     <p class="para-modules">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                    <button class="lire">
-                        Lire la suite<a href="#"></a>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
                     </button>
 
-                </figure>
-            </article>
+                </article>
+            </div>
         </div>
     </section>
     <footer class="contacts">
         <div class="container">
-            <ul class="adresse">
-                <li>Développeur Web et Web Mobile</li>
-                <li>CEFIM</li>
-                <li class="localisation"> <a href="https://maps.google.fr/" target="_blank" class="localisation-link">
-                        32 Avenue Marcel Dassault
-                        <span class="span-adress">37200 Tours</a></span></li>
-                <li>T : 02 47 40 26 80</li>
-            </ul>
-            <ul class="confidentialites">
-                <li class="legale"> <a href="#">MentionsMentions légales</a></li>
-                <li class="politique"> <a href="#"> Politique de confidentialité </a></li>
-            </ul>
+            <address class="adresses-footer">
+                <ul class="adresse">
+                    <li>Développeur Web et Web Mobile</li>
+                    <li>CEFIM</li>
+                    <li class="localisation"> <a href="https://maps.google.fr/" target="_blank"
+                            class="localisation-link">
+                            32 Avenue Marcel Dassault
+                            <span class="span-adress">37200 Tours</a></span></li>
+                    <li>T : 02 47 40 26 80</li>
+                </ul>
+            </address>
+            <div class="confidentialites">
+                <p class="legale"> <a href="politique.html">MentionsMentions légales</a></p>
+                <p class="politique"> <a href="politique.html"> Politique de confidentialité </a></p>
+            </div>
             <div class="reseaux">
                 <picture class="facebook">
                     <a href=""><img src="images/logos/Icon awesome-facebook-f.svg" alt="facebook"></a>
@@ -170,5 +203,5 @@
         </div>
     </footer>
 </body>
-
+<script src="script.js"></script>
 </html>

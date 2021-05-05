@@ -14,13 +14,15 @@
     <header class="main-header">
         <div class="container">
             <p class="para-header">DWWM</p>
+
             <nav class="main-nav">
-                <ul class="menu" role="list">
-                    <li class="menu-item"><a href="#" class="menu-link">Accueil</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">La formation</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Les étudiants</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Actualités</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Nous contacter</a></li>
+                <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul class="menu" role="list" hidden>
+                    <li class="menu-item"><a href="index.html" class="menu-link-accueil">Accueil</a></li>
+                    <li class="menu-item"><a href="formation.html" class="menu-link">La formation</a></li>
+                    <li class="menu-item"><a href="etudiants.html" class="menu-link">Les étudiants</a></li>
+                    <li class="menu-item"><a href="actualites.html" class="menu-link">Actualités</a></li>
+                    <li class="menu-item"><a href="contacts.html" class="menu-link">Nous contacter</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,91 +41,119 @@
     </section>
     <section class="les-modules">
         <div class="container">
-            <article class="formation-modules">
-               <figure class="details-javascript">
-                    <img src="images/image/modules01.jpg">
+            <div class="formation-modules">
+                <article class="details-javascript">
+                    <figure class="images-javascript">
+                        <img src="images/image/modules01.jpg">
+                    </figure>
                     <h4>Module HTML/CSS</h4>
                     <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                    <a href="#"><button class="button-js">
-                            Lire la suite
-                        </button></a>
-                </figure>
-                <figure class="details-javascript">
-                    <img src="images/image/modules2.jpg">
-                    <h4>Module JavaScript</h4>
-                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                        <a href="#"><button class="button-js">
-                            Lire la suite
-                        </button></a>
-                </figure>
-                <figure class="details-javascript">
-                    <img src="images/image/modules2.jpg">
-                    <h4>Module JavaScript</h4>
-                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                        <a href="#"><button class="button-js">
-                            Lire la suite
-                        </button></a>
-                </figure></a>
-                <figure class="details-javascript">
-                    <img src="images/image/modules2.jpg">
-                    <h4>Module JavaScript</h4>
-                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                        <a href="#"><button class="button-js">
-                            Lire la suite
-                        </button></a>
-                </figure>
-                <figure class="details-javascript">
-                    <img src="images/image/modules2.jpg">
-                    <h4>Module JavaScript</h4>
-                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                        <a href="#"><button class="button-js">
-                            Lire la suite
-                        </button></a>
-                </figure>
-               <figure class="details-javascript">
-                    <img src="images/image/modules2.jpg">
-                    <h4>Module JavaScript</h4>
-                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                        <a href="#"><button class="button-js">
-                            Lire la suite
-                        </button></a>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
+                <article class="details-javascript">
+                    <figure class="images-javascript">
+                        <img src="images/image/modules2.jpg">
                     </figure>
-            </article>
+                    <h4>Module JavaScript</h4>
+                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
+                <article class="details-javascript">
+                    <figure class="images-javascript">
+                        <img src="images/image/modules2.jpg">
+                    </figure>
+                    <h4>Module JavaScript</h4>
+                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
+                <article class="details-javascript">
+                    <figure class="images-javascript">
+                        <img src="images/image/modules2.jpg">
+                    </figure>
+                    <h4>Module JavaScript</h4>
+                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
+                <article class="details-javascript">
+                    <figure class="images-javascript">
+                        <img src="images/image/modules2.jpg">
+                    </figure>
+                    <h4>Module JavaScript</h4>
+                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
+                <article class="details-javascript">
+                    <figure class="images-javascript">
+                        <img src="images/image/modules2.jpg">
+                    </figure>
+                    <h4>Module JavaScript</h4>
+                    <p class="para-module">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, …</p>
+                    <button onclick="window.location.href='details-modules.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
+            </div>
+            <ul class="buttons-pagination">
+                <li class=" meme-button"> <a href=""> &#60;&#60; </a></li>
+                <li class=" button-orange"> <a href="">1 </a></li>
+                <li class=" meme-button"> <a href="">2 </a></li>
+                <li class=" meme-button"> <a href="">3 </a></li>
+                <li class=" meme-button"> <a href=""> &#62;&#62;</a></li>
+            </ul>
         </div>
     </section>
     </header>
     <footer class="contacts">
         <div class="container">
-            <ul class="adresse">
-                <li>Développeur Web et Web Mobile</li>
-                <li>CEFIM</li>
-                <li class="localisation"> <a href="https://maps.google.fr/" target="_blank" class="localisation-link">
-                        32 Avenue Marcel Dassault
-                        <span class="span-adress">37200 Tours</a></span></li>
-                <li>T : 02 47 40 26 80</li>
-            </ul>
-            <ul class="confidentialites">
-                <li class="legale"> <a href="#">MentionsMentions légales</a></li>
-                <li class="politique"> <a href="#"> Politique de confidentialité </a></li>
-            </ul>
+            <address class="adresses-footer">
+                <ul class="adresse">
+                    <li>Développeur Web et Web Mobile</li>
+                    <li>CEFIM</li>
+                    <li class="localisation"> <a href="https://maps.google.fr/" target="_blank"
+                            class="localisation-link">
+                            32 Avenue Marcel Dassault
+                            <span class="span-adress">37200 Tours</a></span></li>
+                    <li>T : 02 47 40 26 80</li>
+                </ul>
+            </address>
+            <div class="confidentialites">
+                <p class="legale"> <a href="politique.html">MentionsMentions légales</a></p>
+                <p class="politique"> <a href="politique.html"> Politique de confidentialité </a></p>
+            </div>
             <div class="reseaux">
                 <picture class="facebook">
                     <a href=""><img src="images/logos/Icon awesome-facebook-f.svg" alt="facebook"></a>

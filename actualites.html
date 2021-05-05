@@ -14,13 +14,15 @@
     <header class="main-header">
         <div class="container">
             <p class="para-header">DWWM</p>
+
             <nav class="main-nav">
-                <ul class="menu" role="list">
-                    <li class="menu-item"><a href="#" class="menu-link">Accueil</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">La formation</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Les étudiants</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Actualités</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Nous contacter</a></li>
+                <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul class="menu" role="list" hidden>
+                    <li class="menu-item"><a href="index.html" class="menu-link-accueil">Accueil</a></li>
+                    <li class="menu-item"><a href="formation.html" class="menu-link">La formation</a></li>
+                    <li class="menu-item"><a href="etudiants.html" class="menu-link">Les étudiants</a></li>
+                    <li class="menu-item"><a href="actualites.html" class="menu-link">Actualités</a></li>
+                    <li class="menu-item"><a href="contacts.html" class="menu-link">Nous contacter</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,94 +30,159 @@
     <section class="dernieres-actualites">
         <div class="container">
             <h2>Les dernières actualités</h2>
-            <article class="grid-actu">
-                <figure class="actu-figure">
-                    <img src="/images/image/Photo3.jpg">
-                    <p class="date">12/02/2020</p>
+            <div class="grid-actu">
+                <article class="actu-figure">
+                    <figure class="images-modules">
+                        <img src="images/image/Photo3.jpg">
+                    </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
                     <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
                     <p class="actu-paragraphe">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod
                         tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                         accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                    <button class="la-suite"> <a href="#">Lire la suite </a></button>
-                </figure>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
 
 
-                <figure class="actu-figure">
-                    <img src="/images/image/Photo.jpg">
-                    <p class="date">12/02/2020</p>
+                <article class="actu-figure">
+                    <figure class="images-modules">
+                        <img src="images/image/Photo.jpg">
+                    </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
                     <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
                     <p class="actu-paragraphe">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod
                         tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                         accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                    <button class="la-suite"><a href="#">Lire la suite</a></button>
-                </figure>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
 
-                <figure class="actu-figure">
-                    <img src="/images/image/Photo2.jpg">
-                    <p class="date">12/02/2020</p>
+                <article class="actu-figure">
+                    <figure class="images-modules">
+                        <img src="images/image/Photo2.jpg">
+                    </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
                     <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
                     <p class="actu-paragraphe">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod
                         tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                         accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …
                     </p>
-                    <a href="#"> <button class="la-suite"> Lire la suite </button></a>
-                </figure>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
 
-                <figure class="actu-figure">
-                    <img src="/images/image/Photo3.jpg">
-                    <p class="date">12/02/2020</p>
+                <article class="actu-figure">
+                    <figure class="images-modules">
+                        <img src="images/image/Photo3.jpg">
+                    </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
                     <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
                     <p class="actu-paragraphe">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod
                         tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                         accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                    <button class="la-suite"> <a href="#">Lire la suite </a></button>
-                </figure>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
 
-                <figure class="actu-figure">
-                    <img src="/images/image/Photo.jpg">
-                    <p class="date">12/02/2020</p>
+                <article class="actu-figure">
+                    <figure class="images-modules">
+                        <img src="images/image/Photo.jpg">
+                    </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
                     <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
                     <p class="actu-paragraphe">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod
                         tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                         accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-                    <button class="la-suite"><a href="#">Lire la suite</a></button>
-                </figure>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
 
-                <figure class="actu-figure">
-                        <img src="/images/image/Photo2.jpg">
-                        <p class="date">12/02/2020</p>
-                        <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
-                        <p class="actu-paragraphe">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                            nonumy
-                            eirmod
-                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …
-                        </p>
-                        <a href="#"><button class="la-suite"> Lire la suite </button></a>
-            
-                </figure>
-            </article>
+                <article class="actu-figure">
+                    <figure class="images-modules">
+                        <img src="images/image/Photo2.jpg">
+                    </figure>
+                    <ul class="dates-image">
+                        <li class="image-date"><a href="actualites-details.html"><img
+                                    src="images/logos/Icone date.svg"></a></li>
+                        <li class="dates">12/02/2020</li>
+                    </ul>
+                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                    <p class="actu-paragraphe">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy
+                        eirmod
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …
+                    </p>
+                    <button onclick="window.location.href='actualites-details.html'" class="boutton-suite">
+                        <p>lire la suite</p>
+                        <img src="images/logos/Icon feather-arrow-right-circle.svg">
+                    </button>
+                </article>
+            </div>
+            <ul class="buttons-pagination">
+                <li class=" meme-button"> <a href=""> &#60;&#60; </a></li>
+                <li class=" button-orange"> <a href="">1 </a></li>
+                <li class=" meme-button"> <a href="">2 </a></li>
+                <li class=" meme-button"> <a href="">3 </a></li>
+                <li class=" meme-button"> <a href=""> &#62;&#62;</a></li>
+            </ul>
+        </div>
+
         </div>
     </section>
     <footer class="contacts">
         <div class="container">
-            <ul class="adresse">
-                <li>Développeur Web et Web Mobile</li>
-                <li>CEFIM</li>
-                <li class="localisation"> <a href="https://maps.google.fr/" target="_blank" class="localisation-link">
-                        32 Avenue Marcel Dassault
-                        <span class="span-adress">37200 Tours</a></span></li>
-                <li>T : 02 47 40 26 80</li>
-            </ul>
-            <ul class="confidentialites">
-                <li class="legale"> <a href="#">MentionsMentions légales</a></li>
-                <li class="politique"> <a href="#"> Politique de confidentialité </a></li>
-            </ul>
+            <address class="adresses-footer">
+                <ul class="adresse">
+                    <li>Développeur Web et Web Mobile</li>
+                    <li>CEFIM</li>
+                    <li class="localisation"> <a href="https://maps.google.fr/" target="_blank"
+                            class="localisation-link">
+                            32 Avenue Marcel Dassault
+                            <span class="span-adress">37200 Tours</a></span></li>
+                    <li>T : 02 47 40 26 80</li>
+                </ul>
+            </address>
+            <div class="confidentialites">
+                <p class="legale"> <a href="politique.html">MentionsMentions légales</a></p>
+                <p class="politique"> <a href="politique.html"> Politique de confidentialité </a></p>
+            </div>
             <div class="reseaux">
                 <picture class="facebook">
                     <a href=""><img src="images/logos/Icon awesome-facebook-f.svg" alt="facebook"></a>
