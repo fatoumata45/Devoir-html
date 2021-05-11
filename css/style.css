@@ -1042,7 +1042,12 @@ ul.buttons-paginations{
   font-size: 1.5rem;
   margin-bottom: 10rem;
 }
+@media screen and (max-width:48em){
+  .formulaire{
+    margin-bottom: 10rem;
+  }
 
+}
 .envoie button {
   text-align: center;
   display: flex;
