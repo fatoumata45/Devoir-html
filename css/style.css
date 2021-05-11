@@ -16,6 +16,7 @@
          url('../fonts/raleway-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/raleway-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  
   /* montserrat-regular - latin */
 @font-face {
     font-family: 'Montserrat';
@@ -185,10 +186,9 @@ nav a{
 }
 .hero h1{
   font-size: 7.2rem;
-  font-family: "Raleway";
   margin: 2.4rem;
   color: white;
-  font-style: Raleway,bold;
+  font-family: "Raleway",bold;
 }
  button.renconte{ 
   max-width: 59rem; 
@@ -200,7 +200,6 @@ nav a{
   background-color: var(--unnamed-color);
   border: none;
   margin-bottom: 3rem;
-  font-family:  "Montserrat", SemiBold;
   margin-right: 2.8rem;
   float: right;
   
@@ -328,6 +327,11 @@ button.boutton-suite img{
   color: #FFFFFF;
   text-decoration: none;
 }
+/*pour tous les bouttons les lires la suites du site*/
+.para-suite{
+  font-size: 2.4rem;
+  font-family: "Montserrat",'semibold';
+}
 /*section etudiants*/
 .les-etudiants{
   background-color: var(--unnamed-color);
@@ -377,6 +381,11 @@ button.boutton-suite img{
 }
 .etudiant a{color:  #FFFFFF;
   font-size: 1.6rem;
+  font-family: "Montserrat",'Regular';
+}
+.prenom{
+  font-size: 2.4rem;
+  font-family: "Montserrat",'semibold';
 }
 
 /*section module*/
@@ -610,12 +619,6 @@ ul.buttons-pagination{
   margin: auto;
   padding-bottom: 4rem;
   align-content: center;
-}
-
-.meme-button:hover,.meme-button a:hover{
-  transition: none;
-  color:var(--blanc);
-  background-color: var(--unnamed-color);
 }
 
 
@@ -1037,7 +1040,12 @@ ul.buttons-paginations{
   margin-top: 9rem;
   color: #331100;
   font-size: 1.5rem;
-  padding-bottom: 10rem;
+  margin-bottom: 10rem;
+}
+@media screen and (max-width:48em){
+  .formulaire{
+    margin-bottom: 10rem;
+  }
 }
 .envoie button {
   text-align: center;
