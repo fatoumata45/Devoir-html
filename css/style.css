@@ -95,6 +95,7 @@ body{
 }
 
 .para-header{
+  text-transform: uppercase;
   font-size: 4.8rem;
   font-family: "Raleway",Bold;
   color:var(--blanc);
@@ -368,6 +369,7 @@ button.boutton-suite img{
   }
 }
  .les-etudiants h2{
+   font-family: "Raleway";
   color: white;
   text-align: center;
   font-size: 4.8rem;
@@ -419,6 +421,7 @@ button.boutton-suite img{
 }
 h2{
   font-size: 4.8rem;
+  font-family: "Raleway";
   text-align: center;
   padding-top: 4rem;
   color: var(--noir);
@@ -436,6 +439,7 @@ h2{
 }
 .modules h4{
   font-size: 2.4rem;
+  font-family: "Raleway";
   max-width: 59.2rem;
   margin-right: auto;
   margin-left: auto;
